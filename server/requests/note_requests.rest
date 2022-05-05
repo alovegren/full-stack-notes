@@ -1,0 +1,13 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYyNDczOWI0YTk5NDkxZGZhNDQxZGMxOSIsImlhdCI6MTY0ODgzODg5MH0.VI9QuMMBbgb5Q5CKRnUXJS4WTHI9xxRy2E1jNK0KKtk
+
+{
+  "content": "Here's a third note for our one user",
+  "important": true,
+  "userId": "624739b4a99491dfa441dc19"
+}
+
+###
+DELETE http://localhost:3001/api/notes/624c722b91c5a76e61d31c8a
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYyNDczOWI0YTk5NDkxZGZhNDQxZGMxOSIsImlhdCI6MTY0ODgzODg5MH0.VI9QuMMBbgb5Q5CKRnUXJS4WTHI9xxRy2E1jNK0KKtk
